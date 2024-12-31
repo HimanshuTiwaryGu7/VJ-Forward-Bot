@@ -5,7 +5,7 @@ from os import environ
 class Config:
     API_ID = int(environ.get("API_ID", "5625170"))
     API_HASH = environ.get("API_HASH", "77633c2757f8697650e0c31cf505ffbc")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "7729792798:AAFCEjMfSMqy9tpXw0SPGJ5QC1rW5DqkazU") 
+    BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Himanshu2k25:Himanshu2k25@@cluster0.2lpqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "vj-forward-bot")
